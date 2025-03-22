@@ -1,0 +1,30 @@
+# Instructions to Run the FastAPI Project
+
+1. **Ensure Docker is Installed**: Make sure you have Docker installed on your machine. You can download it from [Docker's official website](https://www.docker.com/get-started).
+
+2. **Open Terminal**: Navigate to the project directory where the Dockerfile is located.
+
+3. **Build the Docker Image**: Run the following command to build the Docker image:
+   ```
+   docker build -t fastapi_app .
+   ```
+
+4. **Run the Docker Container**: After the image is built, run the container using:
+   ```
+   docker run -d -p 8000:8000 fastapi_app
+   ```
+
+5. **Access the Application**: Open your web browser and go to `http://localhost:8000` to access the FastAPI application.
+
+6. **Stopping the Container**: To stop the running container, you can use:
+   ```
+   docker ps  # to find the container ID
+   docker stop <container_id>
+   ```
+
+7. **Optional - Using Docker Compose**: If you have a `docker-compose.yml` file, you can also run the application using Docker Compose:
+   ```
+   docker-compose up --build
+   ```
+
+Make sure to follow these steps to successfully run your FastAPI project.
