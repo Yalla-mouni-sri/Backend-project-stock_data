@@ -19,7 +19,7 @@ This project is a **FastAPI**-based backend that processes and stores financial 
 
 ### **1️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/fastapi-trading-backend.git
+https://github.com/Yalla-mouni-sri/Backend-project-stock_data.git
 cd fastapi-trading-backend
 2️⃣ Create & Activate Virtual Environment
 sh
